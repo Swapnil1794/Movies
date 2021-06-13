@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Movie : Codable {
+struct Movie : Codable {
     
     let adult:Bool
     let backdropPath:String
@@ -22,8 +22,6 @@ class Movie : Codable {
     let video:Bool
     let voteAverage:Float
     let voteCount:Int
-    
-    var isSelected = false
     
     enum CodingKeys: String, CodingKey {
         case adult = "adult"
@@ -41,7 +39,7 @@ class Movie : Codable {
         case voteCount = "vote_count"
     }
     
-    required init(from decoder: Decoder) throws {
+    init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
         self.adult = try container.decode(Bool.self, forKey: .adult)
         self.backdropPath = try container.decode(String.self, forKey: .backdropPath)
