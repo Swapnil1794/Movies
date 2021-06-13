@@ -29,7 +29,7 @@ class MovieDetailsViewController: UIViewController & Coordinating {
             titleLabel.text = movie.title
             releaseDateLabel.text = "Release Date : \(movie.releaseDate)"
             overviewLabel.text = movie.overview
-            posterImageView.loadImageUsingUrlString(urlString: Constants.BACKDROP_BASE_URL + movie.backdropPath)
+            posterImageView.loadImageUsingUrlString(urlString: movie.backdropPath)
         }else{
             titleLabel.text = ""
             releaseDateLabel.text = ""

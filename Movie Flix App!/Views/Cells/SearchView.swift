@@ -9,7 +9,11 @@ import UIKit
 
 class SearchView: UICollectionReusableView {
 
-    @IBOutlet weak var searchBar: UISearchBar!
+    @IBOutlet weak var searchBar: UISearchBar! {
+        didSet{
+            searchBar.backgroundImage = UIImage()
+        }
+    }
     
     static let searchViewReuseIdentifier = "SearchView"
     
