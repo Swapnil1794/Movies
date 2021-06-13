@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0957FAA590D9BF2870187891C4D86251 /* Pods-Movie Flix App!-Movie Flix App!UITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A483C0F785C2AB7ABA57497808945B2 /* Pods-Movie Flix App!-Movie Flix App!UITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CC34A4606F371F4FC24C5F7733017FE /* Pods-Movie Flix App!Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5B2FFBDAFBFAA05A0B2C4AA9717D59 /* Pods-Movie Flix App!Tests-dummy.m */; };
+		61A3BC55FF0C8D66A56758CEE079B11E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		78DEA156FD75E101B2D82BB6A422F549 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		80D372696E12F4AEB053A59CD951949B /* Pods-Movie Flix App!-Movie Flix App!UITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0344ADFE19E9E5C410295266A95C955 /* Pods-Movie Flix App!-Movie Flix App!UITests-dummy.m */; };
+		830151994E39FEF990953A36F1DFAD6F /* Pods-Movie Flix App!Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5038511584C063A4CFAA0CC5A0143FA0 /* Pods-Movie Flix App!Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98391F4162C6DFB4ED4BF838D12DE2CA /* Pods-Movie Flix App!-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5454D9092AA9C4FFF9E9240225B7E5FE /* Pods-Movie Flix App!-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB1BA010FADFD5A26C7D2D02E99D5C13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DEEB61E75B95D9CD2DFE1A4AF667C39A /* Pods-Movie Flix App!-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 196ACC9B2ECB70AD4FD71F13D98294AA /* Pods-Movie Flix App!-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE6C665CC04C16B6C85FC5579C4A3B8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41E255BA241CA51DD2C7C92B04F4F1F9;
+			remoteInfo = "Pods-Movie Flix App!";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		128B144C82BF7BA63E264E9F118B7B59 /* Pods_Movie_Flix_App__Movie_Flix_App_UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Movie_Flix_App__Movie_Flix_App_UITests.framework; path = "Pods-Movie Flix App!-Movie Flix App!UITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		196ACC9B2ECB70AD4FD71F13D98294AA /* Pods-Movie Flix App!-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Movie Flix App!-dummy.m"; sourceTree = "<group>"; };
+		29722E01DB222793F0F277194CC33C58 /* Pods-Movie Flix App!Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Movie Flix App!Tests-Info.plist"; sourceTree = "<group>"; };
+		2D490EC1B20EC42B9E86480F4527CDC6 /* Pods-Movie Flix App!Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Movie Flix App!Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2D5B2FFBDAFBFAA05A0B2C4AA9717D59 /* Pods-Movie Flix App!Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Movie Flix App!Tests-dummy.m"; sourceTree = "<group>"; };
+		4025B852DBEA822A49304A3887BA9E0C /* Pods-Movie Flix App!-Movie Flix App!UITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Movie Flix App!-Movie Flix App!UITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		447F71F319FF6882AD2E70281AE7F260 /* Pods_Movie_Flix_App_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Movie_Flix_App_.framework; path = "Pods-Movie Flix App!.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5038511584C063A4CFAA0CC5A0143FA0 /* Pods-Movie Flix App!Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Movie Flix App!Tests-umbrella.h"; sourceTree = "<group>"; };
+		5454D9092AA9C4FFF9E9240225B7E5FE /* Pods-Movie Flix App!-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Movie Flix App!-umbrella.h"; sourceTree = "<group>"; };
+		5B16DEB3AD2FD2A494BCF6E3479DC14F /* Pods-Movie Flix App!-Movie Flix App!UITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Movie Flix App!-Movie Flix App!UITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		618252792FCB2E718CD266B606794A14 /* Pods-Movie Flix App!.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Movie Flix App!.modulemap"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		77515EB995E9D5C3A17FA2CA96539700 /* Pods-Movie Flix App!-Movie Flix App!UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Movie Flix App!-Movie Flix App!UITests.release.xcconfig"; sourceTree = "<group>"; };
+		7CA5B98142CDE718F68EA40DD16E3F8B /* Pods-Movie Flix App!-Movie Flix App!UITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Movie Flix App!-Movie Flix App!UITests-Info.plist"; sourceTree = "<group>"; };
+		90CDD6B91924B1EFC6F4749EA36083E7 /* Pods-Movie Flix App!Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Movie Flix App!Tests.release.xcconfig"; sourceTree = "<group>"; };
+		95DADFE66D5DE655408921B84F664F6A /* Pods-Movie Flix App!-Movie Flix App!UITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Movie Flix App!-Movie Flix App!UITests.modulemap"; sourceTree = "<group>"; };
+		9A483C0F785C2AB7ABA57497808945B2 /* Pods-Movie Flix App!-Movie Flix App!UITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Movie Flix App!-Movie Flix App!UITests-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DEA9F51AC0265ECD439DCD4D03769A3 /* Pods-Movie Flix App!-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Movie Flix App!-acknowledgements.plist"; sourceTree = "<group>"; };
+		A1236262304E1885C5F04249AF9BCAFA /* Pods-Movie Flix App!-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Movie Flix App!-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B2335B5B2E432942FD5A6750920F68BE /* Pods-Movie Flix App!Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Movie Flix App!Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BC24F44AC1EF7C465568B8B4E3C7C603 /* Pods-Movie Flix App!-Movie Flix App!UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Movie Flix App!-Movie Flix App!UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BC77CA2DA046BF275E103422650B0151 /* Pods-Movie Flix App!Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Movie Flix App!Tests.modulemap"; sourceTree = "<group>"; };
+		C0344ADFE19E9E5C410295266A95C955 /* Pods-Movie Flix App!-Movie Flix App!UITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Movie Flix App!-Movie Flix App!UITests-dummy.m"; sourceTree = "<group>"; };
+		C42D0A3902B894C78B94CFF3509391E2 /* Pods-Movie Flix App!.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Movie Flix App!.release.xcconfig"; sourceTree = "<group>"; };
+		DC57D007641C1E0B41CF56B5AC136C30 /* Pods-Movie Flix App!.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Movie Flix App!.debug.xcconfig"; sourceTree = "<group>"; };
+		E845547AB439CCE495E3234C2B8D6842 /* Pods-Movie Flix App!Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Movie Flix App!Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FC65524979D45642E026CE44BC6DEE68 /* Pods_Movie_Flix_App_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Movie_Flix_App_Tests.framework; path = "Pods-Movie Flix App!Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEB5AD69F41620EBC260B50751AA7B44 /* Pods-Movie Flix App!-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Movie Flix App!-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E624B59E13CAB5E1CE4CD9AE15E5F2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1BA010FADFD5A26C7D2D02E99D5C13 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F775347E02392BC14C8502344ADCD3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61A3BC55FF0C8D66A56758CEE079B11E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9081B07DCF683DBDA7963DD6D8D94C87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78DEA156FD75E101B2D82BB6A422F549 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		490C722E1582218FA166A236CBBBE6FB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7EF6400A4459863DBCFA93B64687C963 /* Pods-Movie Flix App! */,
+				D5A8974A7945DACFDF106B2EED05C15B /* Pods-Movie Flix App!-Movie Flix App!UITests */,
+				F0761DB30F4DBAFF8D52411E312524A3 /* Pods-Movie Flix App!Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7EF6400A4459863DBCFA93B64687C963 /* Pods-Movie Flix App! */ = {
+			isa = PBXGroup;
+			children = (
+				618252792FCB2E718CD266B606794A14 /* Pods-Movie Flix App!.modulemap */,
+				A1236262304E1885C5F04249AF9BCAFA /* Pods-Movie Flix App!-acknowledgements.markdown */,
+				9DEA9F51AC0265ECD439DCD4D03769A3 /* Pods-Movie Flix App!-acknowledgements.plist */,
+				196ACC9B2ECB70AD4FD71F13D98294AA /* Pods-Movie Flix App!-dummy.m */,
+				FEB5AD69F41620EBC260B50751AA7B44 /* Pods-Movie Flix App!-Info.plist */,
+				5454D9092AA9C4FFF9E9240225B7E5FE /* Pods-Movie Flix App!-umbrella.h */,
+				DC57D007641C1E0B41CF56B5AC136C30 /* Pods-Movie Flix App!.debug.xcconfig */,
+				C42D0A3902B894C78B94CFF3509391E2 /* Pods-Movie Flix App!.release.xcconfig */,
+			);
+			name = "Pods-Movie Flix App!";
+			path = "Target Support Files/Pods-Movie Flix App!";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E61C3B913169B135DF3E5DFA7455E026 /* Products */,
+				490C722E1582218FA166A236CBBBE6FB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5A8974A7945DACFDF106B2EED05C15B /* Pods-Movie Flix App!-Movie Flix App!UITests */ = {
+			isa = PBXGroup;
+			children = (
+				95DADFE66D5DE655408921B84F664F6A /* Pods-Movie Flix App!-Movie Flix App!UITests.modulemap */,
+				4025B852DBEA822A49304A3887BA9E0C /* Pods-Movie Flix App!-Movie Flix App!UITests-acknowledgements.markdown */,
+				5B16DEB3AD2FD2A494BCF6E3479DC14F /* Pods-Movie Flix App!-Movie Flix App!UITests-acknowledgements.plist */,
+				C0344ADFE19E9E5C410295266A95C955 /* Pods-Movie Flix App!-Movie Flix App!UITests-dummy.m */,
+				7CA5B98142CDE718F68EA40DD16E3F8B /* Pods-Movie Flix App!-Movie Flix App!UITests-Info.plist */,
+				9A483C0F785C2AB7ABA57497808945B2 /* Pods-Movie Flix App!-Movie Flix App!UITests-umbrella.h */,
+				BC24F44AC1EF7C465568B8B4E3C7C603 /* Pods-Movie Flix App!-Movie Flix App!UITests.debug.xcconfig */,
+				77515EB995E9D5C3A17FA2CA96539700 /* Pods-Movie Flix App!-Movie Flix App!UITests.release.xcconfig */,
+			);
+			name = "Pods-Movie Flix App!-Movie Flix App!UITests";
+			path = "Target Support Files/Pods-Movie Flix App!-Movie Flix App!UITests";
+			sourceTree = "<group>";
+		};
+		E61C3B913169B135DF3E5DFA7455E026 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				447F71F319FF6882AD2E70281AE7F260 /* Pods_Movie_Flix_App_.framework */,
+				128B144C82BF7BA63E264E9F118B7B59 /* Pods_Movie_Flix_App__Movie_Flix_App_UITests.framework */,
+				FC65524979D45642E026CE44BC6DEE68 /* Pods_Movie_Flix_App_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0761DB30F4DBAFF8D52411E312524A3 /* Pods-Movie Flix App!Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BC77CA2DA046BF275E103422650B0151 /* Pods-Movie Flix App!Tests.modulemap */,
+				E845547AB439CCE495E3234C2B8D6842 /* Pods-Movie Flix App!Tests-acknowledgements.markdown */,
+				B2335B5B2E432942FD5A6750920F68BE /* Pods-Movie Flix App!Tests-acknowledgements.plist */,
+				2D5B2FFBDAFBFAA05A0B2C4AA9717D59 /* Pods-Movie Flix App!Tests-dummy.m */,
+				29722E01DB222793F0F277194CC33C58 /* Pods-Movie Flix App!Tests-Info.plist */,
+				5038511584C063A4CFAA0CC5A0143FA0 /* Pods-Movie Flix App!Tests-umbrella.h */,
+				2D490EC1B20EC42B9E86480F4527CDC6 /* Pods-Movie Flix App!Tests.debug.xcconfig */,
+				90CDD6B91924B1EFC6F4749EA36083E7 /* Pods-Movie Flix App!Tests.release.xcconfig */,
+			);
+			name = "Pods-Movie Flix App!Tests";
+			path = "Target Support Files/Pods-Movie Flix App!Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8343C7B07AE2BA9BD489B32C45D9420F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				830151994E39FEF990953A36F1DFAD6F /* Pods-Movie Flix App!Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4DBA077F0124711EAB227F09B17BDCF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98391F4162C6DFB4ED4BF838D12DE2CA /* Pods-Movie Flix App!-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B676ACF17804DDB3AA96DDFFD9BBDF3F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0957FAA590D9BF2870187891C4D86251 /* Pods-Movie Flix App!-Movie Flix App!UITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		02478F187EB37F86FFA52225C32ED0AC /* Pods-Movie Flix App!-Movie Flix App!UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CCFBDC6B0C456BFA32D10FA71FFC16E /* Build configuration list for PBXNativeTarget "Pods-Movie Flix App!-Movie Flix App!UITests" */;
+			buildPhases = (
+				B676ACF17804DDB3AA96DDFFD9BBDF3F /* Headers */,
+				A596351FBD3C2930FFBC878BFDD05020 /* Sources */,
+				6F775347E02392BC14C8502344ADCD3B /* Frameworks */,
+				D0144A21B333F04411E4E24BCAE1902E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Movie Flix App!-Movie Flix App!UITests";
+			productName = "Pods-Movie Flix App!-Movie Flix App!UITests";
+			productReference = 128B144C82BF7BA63E264E9F118B7B59 /* Pods_Movie_Flix_App__Movie_Flix_App_UITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		41E255BA241CA51DD2C7C92B04F4F1F9 /* Pods-Movie Flix App! */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 762FC7B2DF1202E8E8801BE2A14B0030 /* Build configuration list for PBXNativeTarget "Pods-Movie Flix App!" */;
+			buildPhases = (
+				B4DBA077F0124711EAB227F09B17BDCF /* Headers */,
+				563EFB53CBB1E8B5EA137F151432E888 /* Sources */,
+				3E624B59E13CAB5E1CE4CD9AE15E5F2C /* Frameworks */,
+				60606862E52A288693CFF50BA7CDF8AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Movie Flix App!";
+			productName = "Pods-Movie Flix App!";
+			productReference = 447F71F319FF6882AD2E70281AE7F260 /* Pods_Movie_Flix_App_.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		850F5281BE51546DDDFD59B4B69D88D5 /* Pods-Movie Flix App!Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53CDEA7D8704B19EA7DCAFA687491F80 /* Build configuration list for PBXNativeTarget "Pods-Movie Flix App!Tests" */;
+			buildPhases = (
+				8343C7B07AE2BA9BD489B32C45D9420F /* Headers */,
+				002D860DDDF97FFE89F839DE0D92218B /* Sources */,
+				9081B07DCF683DBDA7963DD6D8D94C87 /* Frameworks */,
+				1581B25530AA12668D228D15C8035389 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21F18C63C08ADBED42CA8647DFD1DE71 /* PBXTargetDependency */,
+			);
+			name = "Pods-Movie Flix App!Tests";
+			productName = "Pods-Movie Flix App!Tests";
+			productReference = FC65524979D45642E026CE44BC6DEE68 /* Pods_Movie_Flix_App_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E61C3B913169B135DF3E5DFA7455E026 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41E255BA241CA51DD2C7C92B04F4F1F9 /* Pods-Movie Flix App! */,
+				02478F187EB37F86FFA52225C32ED0AC /* Pods-Movie Flix App!-Movie Flix App!UITests */,
+				850F5281BE51546DDDFD59B4B69D88D5 /* Pods-Movie Flix App!Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1581B25530AA12668D228D15C8035389 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60606862E52A288693CFF50BA7CDF8AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0144A21B333F04411E4E24BCAE1902E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		002D860DDDF97FFE89F839DE0D92218B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CC34A4606F371F4FC24C5F7733017FE /* Pods-Movie Flix App!Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		563EFB53CBB1E8B5EA137F151432E888 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEEB61E75B95D9CD2DFE1A4AF667C39A /* Pods-Movie Flix App!-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A596351FBD3C2930FFBC878BFDD05020 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D372696E12F4AEB053A59CD951949B /* Pods-Movie Flix App!-Movie Flix App!UITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21F18C63C08ADBED42CA8647DFD1DE71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Movie Flix App!";
+			target = 41E255BA241CA51DD2C7C92B04F4F1F9 /* Pods-Movie Flix App! */;
+			targetProxy = CE6C665CC04C16B6C85FC5579C4A3B8D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10BA67326B74C4D971BB09DB0FFE3AD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC24F44AC1EF7C465568B8B4E3C7C603 /* Pods-Movie Flix App!-Movie Flix App!UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Movie Flix App!-Movie Flix App!UITests/Pods-Movie Flix App!-Movie Flix App!UITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Movie Flix App!-Movie Flix App!UITests/Pods-Movie Flix App!-Movie Flix App!UITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4C21ED3C1EC9D19A327A90250835AAE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D490EC1B20EC42B9E86480F4527CDC6 /* Pods-Movie Flix App!Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Movie Flix App!Tests/Pods-Movie Flix App!Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Movie Flix App!Tests/Pods-Movie Flix App!Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5E69D31195BC217F66538DBA12F92952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C42D0A3902B894C78B94CFF3509391E2 /* Pods-Movie Flix App!.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Movie Flix App!/Pods-Movie Flix App!-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Movie Flix App!/Pods-Movie Flix App!.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A1506BB9C09549AD32515AD75A9D5BD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90CDD6B91924B1EFC6F4749EA36083E7 /* Pods-Movie Flix App!Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Movie Flix App!Tests/Pods-Movie Flix App!Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Movie Flix App!Tests/Pods-Movie Flix App!Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C94D1020002D953A8E1FB0FE7A12B92C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77515EB995E9D5C3A17FA2CA96539700 /* Pods-Movie Flix App!-Movie Flix App!UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Movie Flix App!-Movie Flix App!UITests/Pods-Movie Flix App!-Movie Flix App!UITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Movie Flix App!-Movie Flix App!UITests/Pods-Movie Flix App!-Movie Flix App!UITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E6A4FBCED36C5F3F1ADA3AA907CF7A13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC57D007641C1E0B41CF56B5AC136C30 /* Pods-Movie Flix App!.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Movie Flix App!/Pods-Movie Flix App!-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Movie Flix App!/Pods-Movie Flix App!.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CCFBDC6B0C456BFA32D10FA71FFC16E /* Build configuration list for PBXNativeTarget "Pods-Movie Flix App!-Movie Flix App!UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10BA67326B74C4D971BB09DB0FFE3AD8 /* Debug */,
+				C94D1020002D953A8E1FB0FE7A12B92C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53CDEA7D8704B19EA7DCAFA687491F80 /* Build configuration list for PBXNativeTarget "Pods-Movie Flix App!Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C21ED3C1EC9D19A327A90250835AAE5 /* Debug */,
+				A1506BB9C09549AD32515AD75A9D5BD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		762FC7B2DF1202E8E8801BE2A14B0030 /* Build configuration list for PBXNativeTarget "Pods-Movie Flix App!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6A4FBCED36C5F3F1ADA3AA907CF7A13 /* Debug */,
+				5E69D31195BC217F66538DBA12F92952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
